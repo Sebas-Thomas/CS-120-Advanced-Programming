@@ -4,6 +4,7 @@
 
 std::string rgb_to_hex(int r, int g, int b)
 {
+    # declare variables to help with conversion
     r = std::max(0, std::min(255, r));
     g = std::max(0, std::min(255, g));
     b = std::max(0, std::min(255, b));
